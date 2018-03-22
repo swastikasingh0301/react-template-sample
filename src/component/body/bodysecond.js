@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import {SERVICETEXT} from './bodyservicemsg';
 
 class BodySecond extends React.Component{
     render(){
         return(
             <div>
             <div className="body-div-bottom">
-                <div className="header">
-                    <img src="F:\gitSampleRep\template-creation\Images\logoPluton.png"/>
+                <div className="header-bottom">
+                    <img src="src\Images\logoPluton.png"/>
                     <span>Contact</span>
                     <span>Price</span>
                     <span>Clients</span>
@@ -22,13 +23,13 @@ class BodySecond extends React.Component{
                 </div>
                 <div className="body-div-img">
                     <span>
-                        <img src="F:\gitSampleRep\template-creation\Images\img2.jpg" />   
+                        <img src="src\Images\modernDesign.jpg" />   
                     </span>
                     <span>
-                        <img src="F:\gitSampleRep\template-creation\Images\img1.png" />    
+                        <img src="src\Images\powerfullTheme.png" />    
                     </span>
                     <span>
-                        <img src="F:\gitSampleRep\template-creation\Images\img3.png" />    
+                        <img src="src\Images\cleanCode.png" />    
                     </span>
                 </div>
                 <div className="body-div-text">
@@ -40,6 +41,17 @@ class BodySecond extends React.Component{
                     </span>
                     <span>
                         <b>Clean Code</b>
+                    </span>
+                </div>
+                <div className="body-div-msg">
+                    <span>
+                        <p>{SERVICETEXT.modernDesignText}</p>
+                    </span>
+                    <span>
+                        <p>{SERVICETEXT.powerfullThemeText}</p>
+                    </span>
+                    <span>
+                        <p>{SERVICETEXT.cleanCodeText}</p>
                     </span>
                 </div>
             </div>

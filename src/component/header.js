@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { Router } from "react-router"; 
 
 class Header extends React.Component { 
     render(){
         return(
             <div className="header">
-                <img src="F:\gitSampleRep\template-creation\Images\logoPluton.png"/>
+                <img src="src\Images\logoPluton.png"/>
                 <span>Contact</span>
                 <span>Price</span>
                 <span>Clients</span>

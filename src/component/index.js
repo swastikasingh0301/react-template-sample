@@ -3,7 +3,7 @@ import Header from '../component/header';
 import BodyFirst from '../component/body/bodyfirst';
 import BodySecond from '../component/body/bodysecond';
 
-class Person extends Component {
+class Main extends Component {
     constructor(props) {
       super(props);
     }
@@ -18,4 +18,4 @@ class Person extends Component {
     }
   }
   
-  export default Person;
+  export default Main;
